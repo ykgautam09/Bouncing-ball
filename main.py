@@ -14,8 +14,7 @@ position_dx = 0.08
 position_dy = 0.08
 
 while True:
-
-    pygame.color=(123,0,200 )  
+    screen.fill((0,0,0))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
